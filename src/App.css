@@ -1,0 +1,65 @@
+body {
+  padding: 50px;
+}
+.myContainer {
+  background-color: ghostwhite;
+  height: 290px;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 0px;
+}
+h1.headerTxt {
+  color: #6f6f6f;
+}
+.headerBtn {
+  margin-top: 10px;
+}
+.saveBtn {
+  margin-right: 30px;
+  background-color: #010101 !important;
+  box-shadow: none;
+  width: 100px;
+  border-radius: 10px !important;
+  border: 0px;
+}
+.cancelBtn {
+  background-color: #010101 !important;
+  width: 100px;
+  border-radius: 10px !important;
+  border: 0px;
+}
+.cancelBtn .saveBtn:focus,
+Button:focus {
+  outline: none;
+}
+.mainDiv {
+  background-color: white !important;
+  width: 80%;
+  height: 160px;
+  margin-top: -95px;
+  margin-left: 150px;
+  border-radius: 10px !important;
+}
+.iconList {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.iconList:hover {
+  cursor: pointer;
+}
+@media screen and (min-width: 400px) {
+  .title {
+    width: 500px !important;
+    margin-left: -10px;
+    font-size: 20px !important;
+  }
+  .mainDiv {
+    margin-left: 10px;
+    width: 100% !important;
+    margin-top: -50px;
+  }
+  .headerBtn {
+    margin-right: 44px;
+  }
+}
